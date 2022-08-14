@@ -5,7 +5,7 @@ import java.io.*;
 public class BafferedReaderConsoleHandler {
     public static void main(String[] args) {
 
-        try (FileInputStream path = new FileInputStream("/home/user/Documents/Hillel/alishev/log.txt");
+        try (FileInputStream path = new FileInputStream("/home/user/Documents/Hillel/alishev/CONNECTION_LEAK_LOG.log");
              BufferedReader br = new BufferedReader(new InputStreamReader(path))) {
 
             StringBuilder sb = new StringBuilder();

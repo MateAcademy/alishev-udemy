@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 public class ScannerConsoleHandler {
     public static void main(String[] args) {
         String separator = File.separator;
-        String path = "/home/user/Documents/Hillel/alishev/log.txt";
+        String path = "/home/user/Documents/Hillel/alishev/CONNECTION_LEAK_LOG.log";
 
 //        File file = new File(path);
 //        try (Scanner scanner = new Scanner(file)) {
