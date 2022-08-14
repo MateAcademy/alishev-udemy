@@ -1,9 +1,8 @@
-package io.ex01;
+package lesson1.io.ex01;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.util.Scanner;
 
 public class ScannerConsoleHandler {
     public static void main(String[] args) {
@@ -20,18 +19,30 @@ public class ScannerConsoleHandler {
 //            e.printStackTrace();
 //        }
 
+//        scanner.close()  // что бы освобождались ресурсы и поток был открытым
+
         writeToFile();
     }
 
 
     private static void writeToFile() {
-        String path = "/home/user/Documents/Hillel/alishev/newFile.txt";
+        //String path = "/home/user/Documents/Hillel/alishev/newFile.txt";
+        String path = "newFile.txt";
         File file = new File(path);
 
         try  {
+
+            // только для текстовых значений
             PrintWriter pw = new PrintWriter(file);
-            pw.write("Test row 1");
-            pw.write("Test row 7");
+
+            //Prints a String and then terminates the line.
+            pw.println("Test");
+            pw.println("Test");
+            pw.println("Test0");
+
+            //Writes a string.
+            //pw.write("Test row 1");
+            //pw.write("Test row 7");
 
            pw.close();
         } catch (FileNotFoundException e) {
