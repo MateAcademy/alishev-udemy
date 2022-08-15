@@ -71,5 +71,5 @@ public class Test2 {
 }
 
 class Paerson {
-    private int id
+    private int id;
 }
