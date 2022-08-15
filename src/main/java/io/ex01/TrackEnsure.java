@@ -13,8 +13,8 @@ public class TrackEnsure {
     private static String COMMUNICATION_DIAGNOSTIC_LOG_URL = "/home/user/Documents/Hillel/alishev/COMMUNICATION_DIAGNOSTIC_LOG.log";
 
     public static void main(String[] args) {
-        //parsingConnectionLeakLog();
-        parsingCommunicationDiagnosticLog();
+        parsingConnectionLeakLog();
+ //       parsingCommunicationDiagnosticLog();
     }
 
 
@@ -132,8 +132,6 @@ public class TrackEnsure {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
 
     public static void parsingConnectionLeakLog() {
