@@ -1,8 +1,7 @@
-package lesson2;
+package collection.lesson2;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * @author Sergey Klunniy
