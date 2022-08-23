@@ -1,4 +1,4 @@
-package lesson2.множества;
+package collection.lesson2.множества;
 
 import serialization.Person;
 

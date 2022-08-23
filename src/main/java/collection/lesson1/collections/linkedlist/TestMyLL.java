@@ -1,4 +1,4 @@
-package lesson1.collections.linkedlist;
+package collection.lesson1.collections.linkedlist;
 
 /**
  * @author Sergey Klunniy
