@@ -1,5 +1,7 @@
 package lesson2.множества;
 
+import serialization.Person;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -67,6 +69,10 @@ public class Test2 {
         //эти обьекты сравниваются и проверяются на идентичность
 
         //давайте наш собственный обьект добавим
+
+
+
+
     }
 }
 
